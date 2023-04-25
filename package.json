@@ -4,13 +4,16 @@
   "description": "A job listing website for top talent",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon ./server.js"
+    "dev": "nodemon ./server.js --watch src --ext js,html,ejs",
+    "build": "postcss public/src/styles.css --dir public/dest -w"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "nodemon": "^2.0.22"
+    "nodemon": "^2.0.22",
+    "postcss": "^8.4.23",
+    "postcss-cli": "^10.1.0"
   },
   "dependencies": {
     "ejs": "^3.1.9",
