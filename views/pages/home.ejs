@@ -7,11 +7,23 @@
     <title></title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="/dest/styles.css" />
+    <link rel="stylesheet" href="/dest/tailwind.css" />
   </head>
-  <body>
-    <header><%- include('../partials/header'); %></header>
-    <h1>Hi</h1>
+  <body class="bg-slate-100">
+    <header class="sticky top-0 z-10">
+      <%- include('../partials/header'); %>
+    </header>
+    <section id="banner"><%- include("../partials/banner"); %></section>
+
+    <section id="find-jobs" class="scroll-smooth">
+      <%- include("../partials/findjobs"); %>
+    </section>
+
+    <script src="src/js/home.js" async defer></script>
     <script src="" async defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+    <script>
+      console.log("Running!");
+    </script>
   </body>
 </html>

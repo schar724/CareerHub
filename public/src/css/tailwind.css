@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .header-link {
+    @apply font-semibold text-white mr-4;
+  }
+
+  .header-link:hover {
+    @apply text-primary transition ease-in-out delay-75;
+  }
+}

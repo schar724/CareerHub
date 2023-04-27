@@ -4,16 +4,18 @@
   "description": "A job listing website for top talent",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon ./server.js --watch src --ext js,html,ejs",
-    "build": "postcss public/src/styles.css --dir public/dest -w"
+    "dev": "nodemon ./server.js --watch src --ext js,html,ejs,json",
+    "watch": "postcss public/src/css/tailwind.css --dir public/dest -w"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "autoprefixer": "^10.4.14",
     "nodemon": "^2.0.22",
     "postcss": "^8.4.23",
-    "postcss-cli": "^10.1.0"
+    "postcss-cli": "^10.1.0",
+    "tailwindcss": "^3.3.2"
   },
   "dependencies": {
     "ejs": "^3.1.9",
