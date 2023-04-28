@@ -1,6 +1,7 @@
 {
   "jobs": [
     {
+      "job_id": 0,
       "job_title": "Project Manager",
       "company_name": "Velocity Industries",
       "location": "San Francisco, CA",
@@ -24,9 +25,11 @@
       "employment_type": "Full-time",
       "experience_level": "Mid-level",
       "education_required": "Bachelor's degree",
-      "job_post_date": "2023-04-26"
+      "job_post_date": "2023-04-26",
+      "logo": "/assets/logo.png"
     },
     {
+      "job_id": 1,
       "job_title": "Graphic Designer",
       "company_name": "Blue Sky Holdings",
       "location": "Los Angeles, CA",
@@ -50,9 +53,11 @@
       "employment_type": "Full-time",
       "experience_level": "Entry-level",
       "education_required": "Bachelor's degree",
-      "job_post_date": "2023-04-26"
+      "job_post_date": "2023-04-26",
+      "logo": "/assets/pngaaa.com-628647.png"
     },
     {
+      "job_id": 2,
       "job_title": "Data Analyst",
       "company_name": "Summit Solutions",
       "location": "Chicago, IL",
@@ -76,9 +81,11 @@
       "employment_type": "Full-time",
       "experience_level": "Mid-level",
       "education_required": "Bachelor's degree",
-      "job_post_date": "2023-04-26"
+      "job_post_date": "2023-04-26",
+      "logo": "/assets/pngaaa.com-628652.png"
     },
     {
+      "job_id": 3,
       "job_title": "Sales Representative",
       "company_name": "Delta Prime Inc.",
       "location": "Boston, MA",
@@ -102,11 +109,13 @@
       "employment_type": "Full-time",
       "experience_level": "Mid-level",
       "education_required": "Bachelor's degree",
-      "job_post_date": "2023-04-26"
+      "job_post_date": "2023-04-26",
+      "logo": "/assets/pngaaa.com-628647.png"
     },
     {
+      "job_id": 4,
       "job_title": "Software Engineer",
-      "company_name": "Techtronics",
+      "company_name": "MicroChip Inc.",
       "location": "San Francisco, CA",
       "salary_range": "$100,000 - $120,000",
       "description": "We are seeking a Software Engineer to join our team! The Software Engineer will be responsible for developing and maintaining our software applications. The ideal candidate will have experience with back-end development, database management, and agile methodologies.",
@@ -130,11 +139,13 @@
       "employment_type": "Full-time",
       "experience_level": "Mid-level",
       "education_required": "Bachelor's degree",
-      "job_post_date": "2023-04-26"
+      "job_post_date": "2023-04-26",
+      "logo": "/assets/pngaaa.com-628672.png"
     },
     {
+      "job_id": 5,
       "job_title": "Marketing Manager",
-      "company_name": "Visionary Brands",
+      "company_name": "Honolulu Brewing Compnay",
       "location": "New York, NY",
       "salary_range": "$80,000 - $90,000",
       "description": "We are seeking a Marketing Manager to join our team! The Marketing Manager will be responsible for developing and executing marketing strategies to promote our brand and products. The ideal candidate will have experience in digital marketing, brand management, and team management.",
@@ -158,7 +169,8 @@
       "employment_type": "Full-time",
       "experience_level": "Senior",
       "education_required": "Bachelor's degree",
-      "job_post_date": "2023-04-26"
+      "job_post_date": "2023-04-26",
+      "logo": "/assets/pngaaa.com-628685.png"
     }
   ]
 }
