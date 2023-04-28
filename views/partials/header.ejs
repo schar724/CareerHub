@@ -1,4 +1,4 @@
-<nav class="bg-slate-800 p-2">
+<nav class="bg-tertiary p-2">
   <div>
     <div class="flex justify-between items-center px-4 py-3">
       <div id="logo" class="flex items-center">
@@ -8,14 +8,20 @@
         </a>
       </div>
       <div>
-        <a href="#find-jobs" class="text-lg header-link">Find Jobs </a>
+        <a href="#find-jobs" id="find-jobs-btn" class="text-lg header-link"
+          >Find Jobs
+        </a>
         <a href="#find-jobs" class="text-lg header-link">Post Job </a>
       </div>
 
       <div class="flex items-center">
-        <a href="#" class="text-sm header-link">About Us </a>
-        <a href="/login" class="text-sm header-link">Login</a>
-        <a href="/register" class="text-sm header-link">Register</a>
+        <a href="#" id="about-us-btn" class="text-sm header-link">About Us </a>
+        <a href="#" class="text-sm header-link" onclick="showApplyModal()"
+          >Login</a
+        >
+        <a href="#" class="text-sm header-link" onclick="showApplyModal()"
+          >Register</a
+        >
       </div>
     </div>
   </div>

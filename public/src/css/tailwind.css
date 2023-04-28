@@ -4,7 +4,7 @@
 
 @layer components {
   .header-link {
-    @apply font-semibold text-white mr-4;
+    @apply font-semibold text-white mr-4 focus:text-primary;
   }
 
   .header-link:hover {

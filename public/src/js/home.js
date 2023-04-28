@@ -117,3 +117,21 @@ function hideLearnMoreModal() {
   const learnMoreModal = document.querySelector("#learn-more-modal");
   learnMoreModal.classList.add("hidden");
 }
+
+const aboutBtn = document.querySelector("#about-us-btn");
+const callToAction = document.querySelector("#call-to-action");
+const aboutUs = document.querySelector("#about-us");
+const findJobsBtn = document.querySelector("#find-jobs-btn");
+const findJobs = document.querySelector("#find-jobs");
+
+aboutBtn.addEventListener("click", function () {
+  findJobs.classList.add("hidden");
+  callToAction.classList.add("hidden");
+  aboutUs.classList.remove("hidden");
+});
+
+findJobsBtn.addEventListener("click", function () {
+  aboutUs.classList.add("hidden");
+  callToAction.classList.remove("hidden");
+  findJobs.classList.remove("hidden");
+});
